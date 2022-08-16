@@ -1,0 +1,25 @@
+*{padding:0;margin:0;box-sizing:border-box;}
+h2{border:1px solid black; text-align: center;position:relative;width:87px;left:10px;bottom:10px;float:right;}
+h1{text-align: center; margin-bottom: 25px}
+
+
+
+#Ch{background-color:#C14242 }
+#B{background-color:#B00C0C}
+#S{background-color:#F3DA76 }
+.row > div {background-color:#B8ACAC ;border:1px solid black;padding:10px;margin:25px;float: left;}
+
+
+@media (min-width:992px){
+
+  .lg{width:30%; float: left;}
+}
+@media(min-width:768px) and (max-width:991px){
+.md,.nano  {float:left;}
+.md{width:40%}
+.nano{width:100%}
+
+
+
+
+}
